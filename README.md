@@ -33,6 +33,35 @@ discountedSellingPrice: Final price after discount (also converted to ₹)
 
 availableQuantity: Units available in inventory
 
+🧠 Zepto Product Data Analysis – Project Summary
+This project involves analyzing product-level data to derive actionable business insights for a retail company.
+
+🗄️ Database & Table Setup
+Designed and created a PostgreSQL table with relevant fields (category, price, discount %, stock, etc.)
+
+Imported data from a CSV using \copy command and pgAdmin
+
+🔍 Data Exploration
+Assessed dataset structure, null values, unique categories
+
+Analyzed stock status and duplicate product entries
+
+🧹 Data Cleaning
+Removed entries with invalid pricing (MRP or discounted price = 0)
+
+Standardized price units from paise to rupees
+
+📊 Business Insights
+Top 10 best-value products by discount %
+
+Identified costly products with low discounts
+
+Revenue potential by category
+
+Price-per-gram analysis for value detection
+
+Weight-based product categorization (Low/Medium/Bulk)
+
 weightInGms: Product weight in grams
 
 outOfStock: Boolean flag indicating stock availability
