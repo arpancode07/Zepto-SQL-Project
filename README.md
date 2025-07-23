@@ -33,7 +33,7 @@ discountedSellingPrice: Final price after discount (also converted to ₹)
 
 availableQuantity: Units available in inventory
 
-🧠 Zepto Product Data Analysis – Project Summary
+# 🧠 Zepto Product Data Analysis – Project Summary
 This project involves analyzing product-level data to derive actionable business insights for a retail company.
 
 🗄️ Database & Table Setup
